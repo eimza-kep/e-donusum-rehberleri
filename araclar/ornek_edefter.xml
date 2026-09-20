@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gl-cor:accountingEntries xmlns:gl-cor="http://www.xbrl.org/int/gl/cor/2006-10-25">
+  <gl-cor:documentInfo>
+    <gl-cor:entriesType>journal</gl-cor:entriesType>
+    <gl-cor:periodCoveredStartDate>2026-01-01</gl-cor:periodCoveredStartDate>
+    <gl-cor:periodCoveredEndDate>2026-01-31</gl-cor:periodCoveredEndDate>
+  </gl-cor:documentInfo>
+  <gl-cor:totalDebit>458920.50</gl-cor:totalDebit>
+  <gl-cor:totalCredit>458920.50</gl-cor:totalCredit>
+</gl-cor:accountingEntries>

@@ -68,6 +68,22 @@ Sık karşılaşılan kriz anlarında doğrudan ilgili çözüme ulaşın:
 
 ---
 
+## 🛠️ Tıkla-Çalıştır Yardımcı Araçlar (Windows / Çevrimdışı)
+
+Depomuzdaki [`araclar/`](araclar/) klasöründe, hiçbir terminal veya komut satırı bilgisine gerek kalmadan Windows ortamında doğrudan **çift tıklayarak** çalıştırabileceğiniz 5 adet pratik E-Dönüşüm aracı bulunmaktadır:
+
+| Araç Başlatıcı | Tek Tıkla Ne Yapar? | Ayrıntı & Rehber |
+| :--- | :--- | :--- |
+| [**`01-eimza-hizli-tani.bat`**](araclar/01-eimza-hizli-tani.bat) | Takılı E-İmza USB cihazını denetler, kilitlenen `SCardSvr` hizmetini otomatik onarır ve AKİS/Java durumunu raporlar. | [araclar/README.md](araclar/README.md) |
+| [**`02-sertifika-kalan-gun-sayar.bat`**](araclar/02-sertifika-kalan-gun-sayar.bat) | Windows sertifika deposunu tarayarak Mali Mühür ve E-İmzanızın **kalan gün sayısını** hesaplar, 30 günden az kaldıysa kırmızı alarm verir. | [araclar/README.md](araclar/README.md) |
+| [**`03-uyap-java-onbellek-temizle.bat`**](araclar/03-uyap-java-onbellek-temizle.bat) | UYAP Portal ve Editör kilitlenmelerini, Java önbelleğini ve eski sertifika artıklarını tek tıkla sıfırlar. | [araclar/README.md](araclar/README.md) |
+| [**`04-e-fatura-goruntuleyici-baslat.bat`**](araclar/04-e-fatura-goruntuleyici-baslat.bat) | Ham UBL-TR `.xml` faturalarını internete yüklemeden (%100 çevrimdışı ve güvenli) şık resmi faturaya dönüştürür, PDF/yazdır çıktısı verir. | [Arayüz (.html)](araclar/04-e-fatura-xml-goruntuleyici.html) |
+| [**`05-edefter-balans-kontrolcu.bat`**](araclar/05-edefter-balans-kontrolcu.bat) | e-Defter dosyasını sürükle-bırak ile denetler, kuruş borç-alacak dengesini ve UTF-8 şema uyumunu onaylar. | [araclar/README.md](araclar/README.md) |
+
+> 🔒 **Gizlilik Garantisi:** Tüm araçlar %100 yerel ve çevrimdışı çalışır. Bilgisayarınızdan hiçbir veri dışarı aktarılmaz.
+
+---
+
 ## 🔍 Rehber İçi Arama Motoru (CLI)
 
 Rehberler arasında anahtar kelime, kategori ve sorun araması yapmak için dahili Python aracını kullanabilirsiniz:

@@ -3,11 +3,11 @@
 """
 validate_guides.py
 ------------------
-E-Dönüşüm Rehberleri reposundaki tüm kılavuzları doğrular:
+E-Dönüşüm Rehberleri reposundaki tüm kılavuzları ve yardımcı araçları doğrular:
 1. Rehber sayısının en az 20 olduğunu teyit eder.
 2. Her rehberin başlık (#), kategori ve meta veri bloğunu içerdiğini doğrular.
 3. Minimum başlık (##) derinliği ve içerik zenginliğini kontrol eder.
-4. Dosya isimlerinin standartlara uygunluğunu denetler.
+4. Tıkla-çalıştır araçların (araclar/) eksiksiz ve geçerli olduğunu doğrular.
 """
 
 import os
@@ -22,6 +22,7 @@ if hasattr(sys.stdout, "reconfigure"):
 def validate():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     rehberler_dir = os.path.join(base_dir, "rehberler")
+    araclar_dir = os.path.join(base_dir, "araclar")
 
     if not os.path.isdir(rehberler_dir):
         print(f"❌ HATA: 'rehberler' dizini bulunamadı: {rehberler_dir}")
@@ -65,13 +66,41 @@ def validate():
 
     print(f"✅ Başarıyla doğrulanan rehber: {success_count}/{total_guides}")
 
+    # 5. Tıkla-çalıştır araçları kontrol et
+    required_tools = [
+        "01-eimza-hizli-tani.bat",
+        "01-eimza-tani.ps1",
+        "02-sertifika-kalan-gun-sayar.bat",
+        "02-sertifika-sayar.ps1",
+        "03-uyap-java-onbellek-temizle.bat",
+        "03-uyap-temizle.ps1",
+        "04-e-fatura-goruntuleyici-baslat.bat",
+        "04-e-fatura-xml-goruntuleyici.html",
+        "05-edefter-balans-kontrolcu.bat",
+        "05-edefter-kontrolcu.py",
+        "05-edefter-kontrolcu.ps1"
+    ]
+
+    print("\n🛠️ Tıkla-Çalıştır Yardımcı Araçlar Kontrol Ediliyor...")
+    if not os.path.isdir(araclar_dir):
+        errors.append("araclar dizini bulunamadı!")
+    else:
+        for tool in required_tools:
+            tool_path = os.path.join(araclar_dir, tool)
+            if not os.path.exists(tool_path):
+                errors.append(f"[araclar/{tool}] Gerekli yardımcı araç dosyası eksik.")
+            elif os.path.getsize(tool_path) == 0:
+                errors.append(f"[araclar/{tool}] Yardımcı araç dosyası boş.")
+            else:
+                print(f"  ✓ {tool} mevcut ve geçerli.")
+
     if errors:
         print("\n⚠️ Tespit Edilen Doğrulama Hataları:")
         for err in errors:
             print(f"  - {err}")
         return 1
 
-    print("🎉 Tüm rehberler kalite, yapı ve format kriterlerini eksiksiz geçti!")
+    print("\n🎉 Tüm rehberler ve tıkla-çalıştır araçlar kalite kriterlerini eksiksiz geçti!")
     return 0
 
 if __name__ == "__main__":
