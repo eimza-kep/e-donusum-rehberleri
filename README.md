@@ -120,6 +120,9 @@ Bu repo, [@eimza-kep](https://github.com/eimza-kep) organizasyonunun açık kayn
 8. 🧾 [gib-portal-fatura-araclari](https://github.com/eimza-kep/gib-portal-fatura-araclari) - GİB Portal UBL-TR XML oluşturucu ve KDV hesaplayıcı.
 9. 📬 [turkiye-kep-entegrasyon-rehberi](https://github.com/eimza-kep/turkiye-kep-entegrasyon-rehberi) - KEP sistemleri için Python & REST API entegrasyon kılavuzu.
 10. 🔏 [eimza-validasyon-servisi](https://github.com/eimza-kep/eimza-validasyon-servisi) - CAdES/PAdES/XAdES dijital imza doğrulama mikrosistemi.
+11. 📊 [muhasebe-excel-sablonlari](https://github.com/eimza-kep/muhasebe-excel-sablonlari) - Muhasebeciler için 7 adet formüllü Excel hesaplama aracı (e-SMM, Tevkifat, Kıdem, Bordro vb.).
+12. ⚖️ [avukat-hukuk-excel-hesaplamalari](https://github.com/eimza-kep/avukat-hukuk-excel-hesaplamalari) - Hukuk büroları için 7 adet Excel hesaplama aracı (AAÜT, İcra kapak, Yasal faiz, Dava harcı vb.).
+13. 🏢 [kobi-finans-yonetim-excel-sablonlari](https://github.com/eimza-kep/kobi-finans-yonetim-excel-sablonlari) - KOBİ'ler için 6 adet Excel finans yönetim şablonu (Nakit akış, Başabaş, Stok takip vb.).
 
 ---
 
