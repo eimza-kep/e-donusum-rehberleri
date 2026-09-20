@@ -123,6 +123,7 @@ Bu repo, [@eimza-kep](https://github.com/eimza-kep) organizasyonunun açık kayn
 11. 📊 [muhasebe-excel-sablonlari](https://github.com/eimza-kep/muhasebe-excel-sablonlari) - Muhasebeciler için 7 adet formüllü Excel hesaplama aracı (e-SMM, Tevkifat, Kıdem, Bordro vb.).
 12. ⚖️ [avukat-hukuk-excel-hesaplamalari](https://github.com/eimza-kep/avukat-hukuk-excel-hesaplamalari) - Hukuk büroları için 7 adet Excel hesaplama aracı (AAÜT, İcra kapak, Yasal faiz, Dava harcı vb.).
 13. 🏢 [kobi-finans-yonetim-excel-sablonlari](https://github.com/eimza-kep/kobi-finans-yonetim-excel-sablonlari) - KOBİ'ler için 6 adet Excel finans yönetim şablonu (Nakit akış, Başabaş, Stok takip vb.).
+14. 🤖 [turkiye-yapay-zeka-araclari](https://github.com/eimza-kep/turkiye-yapay-zeka-araclari) - Mali müşavirler, avukatlar ve KOBİ'ler için 20 yapay zeka aracı ve BYOK web portali (OpenAI & Gemini).
 
 ---
 
