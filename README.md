@@ -40,6 +40,7 @@ Bu depoda; **E-İmza**, **Mali Mühür**, **KEP (Kayıtlı Elektronik Posta)**, 
 | **22** | [Serbest Meslek Mensupları İçin e-SMM Rehberi](rehberler/22-e-smm-serbest-meslek-makbuzu-rehberi.md) | e-SMM | Avukat, Doktor, Mimar, Mali Müşavir |
 | **23** | [UYAP Portalında E-İmza Kullanımı ve Hata Çözümleri](rehberler/23-uyap-avukat-vatandas-portal-e-imza.md) | UYAP | Hukukçular, Vatandaşlar |
 | **24** | [MERSİS ile Şirket Kuruluşu ve E-İmza Onayı](rehberler/24-mersis-sirket-ana-sozlesme-e-imza.md) | MERSİS | Girişimciler, Avukatlar |
+| **25** | [UYAP UDF Dosyalarını Yapay Zeka İçin Markdown'a Dönüştürme](rehberler/25-uyap-udf-yapay-zeka-markdown-donusturme.md) | LegalTech | Avukatlar, Geliştiriciler |
 
 ---
 
