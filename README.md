@@ -41,6 +41,7 @@ Bu depoda; **E-İmza**, **Mali Mühür**, **KEP (Kayıtlı Elektronik Posta)**, 
 | **23** | [UYAP Portalında E-İmza Kullanımı ve Hata Çözümleri](rehberler/23-uyap-avukat-vatandas-portal-e-imza.md) | UYAP | Hukukçular, Vatandaşlar |
 | **24** | [MERSİS ile Şirket Kuruluşu ve E-İmza Onayı](rehberler/24-mersis-sirket-ana-sozlesme-e-imza.md) | MERSİS | Girişimciler, Avukatlar |
 | **25** | [UYAP UDF Dosyalarını Yapay Zeka İçin Markdown'a Dönüştürme](rehberler/25-uyap-udf-yapay-zeka-markdown-donusturme.md) | LegalTech | Avukatlar, Geliştiriciler |
+| **26** | [2026 e-İrsaliye Geçiş Zorunluluğu, Ciro Limitleri ve Karekod Standartları](rehberler/26-e-irsaliye-2026-gecis-ve-karekod-standartlari.md) | e-İrsaliye | Mali Müşavirler, Lojistik, ERP |
 
 ---
 
