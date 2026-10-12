@@ -1,14 +1,14 @@
 # Türkiye E-Dönüşüm Rehberleri 📚🇹🇷
 
 [![CI - Rehber Doğrulama](https://github.com/eimza-kep/e-donusum-rehberleri/actions/workflows/ci.yml/badge.svg)](https://github.com/eimza-kep/e-donusum-rehberleri/actions/workflows/ci.yml)
-[![Rehber Sayısı](https://img.shields.io/badge/Rehber_Say%C4%B1s%C4%B1-24_Rehber-success.svg)](#-tüm-rehberler-fihristi)
+[![Rehber Sayısı](https://img.shields.io/badge/Rehber_Say%C4%B1s%C4%B1-27_Rehber-success.svg)](#-tüm-rehberler-fihristi)
 [![Organizasyon](https://img.shields.io/badge/GitHub-eimza--kep-blue.svg)](https://github.com/eimza-kep)
 [![Lisans](https://img.shields.io/badge/Lisans-MIT-orange.svg)](LICENSE)
 [![Son Güncelleme](https://img.shields.io/badge/Mevzuat-2026_Uyumlu-green.svg)](#)
 
 Türkiye'nin en kapsamlı, bağımsız, reklamsız ve açık kaynaklı **E-Dönüşüm Rehber Kütüphanesi**. 
 
-Bu depoda; **E-İmza**, **Mali Mühür**, **KEP (Kayıtlı Elektronik Posta)**, **e-Fatura**, **e-Defter**, **e-İrsaliye**, **e-SMM**, **UYAP**, **MERSİS** ve teknik hata çözümlerine dair adım adım 24 ayrıntılı kılavuz yer almaktadır.
+Bu depoda; **E-İmza**, **Mali Mühür**, **KEP (Kayıtlı Elektronik Posta)**, **e-Fatura**, **e-Defter**, **e-İrsaliye**, **e-SMM**, **UYAP**, **MERSİS**, **E-Tebligat** ve teknik hata çözümlerine dair adım adım 27 ayrıntılı kılavuz yer almaktadır.
 
 ---
 
@@ -42,6 +42,7 @@ Bu depoda; **E-İmza**, **Mali Mühür**, **KEP (Kayıtlı Elektronik Posta)**, 
 | **24** | [MERSİS ile Şirket Kuruluşu ve E-İmza Onayı](rehberler/24-mersis-sirket-ana-sozlesme-e-imza.md) | MERSİS | Girişimciler, Avukatlar |
 | **25** | [UYAP UDF Dosyalarını Yapay Zeka İçin Markdown'a Dönüştürme](rehberler/25-uyap-udf-yapay-zeka-markdown-donusturme.md) | LegalTech | Avukatlar, Geliştiriciler |
 | **26** | [2026 e-İrsaliye Geçiş Zorunluluğu, Ciro Limitleri ve Karekod Standartları](rehberler/26-e-irsaliye-2026-gecis-ve-karekod-standartlari.md) | e-İrsaliye | Mali Müşavirler, Lojistik, ERP |
+| **27** | [VUK 596 E-Tebligat, Zaman Damgası ve Mazbata Rehberi](rehberler/27-vuk-596-e-tebligat-ve-zamandamgasi-rehberi.md) | E-Tebligat | Şirket Yetkilileri, Mali Müşavirler, Hukukçular |
 
 ---
 
@@ -67,6 +68,9 @@ Sık karşılaşılan kriz anlarında doğrudan ilgili çözüme ulaşın:
 
 * ⚖️ **"UYAP'a girerken veya UDF imzalarken akıllı kart hatası alıyorum!"**  
   👉 [23 - UYAP E-İmza Kullanım Rehberi](rehberler/23-uyap-avukat-vatandas-portal-e-imza.md)
+
+* 📬 **"GİB'den e-Tebligat geldi, 5 günlük tebellüğ süresi nasıl hesaplanır?"**  
+  👉 [27 - VUK 596 E-Tebligat ve Zaman Damgası Rehberi](rehberler/27-vuk-596-e-tebligat-ve-zamandamgasi-rehberi.md)
 
 ---
 
