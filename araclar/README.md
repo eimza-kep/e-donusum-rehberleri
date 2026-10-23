@@ -15,6 +15,7 @@ Tüm araçlar **%100 çevrimdışı (offline)** çalışır, hiçbir kişisel ve
 | **03** | `03-uyap-temizle.ps1` | **`03-uyap-java-onbellek-temizle.bat`** | UYAP Portal ve UYAP Doküman Editörü kilitlenmelerini çözer; Java Deployment ve SSL önbelleğini sıfırlar. |
 | **04** | `04-e-fatura-xml-goruntuleyici.html` | **`04-e-fatura-goruntuleyici-baslat.bat`** | Gelen ham UBL-TR e-Fatura / e-Arşiv / e-SMM XML dosyalarını sürükle-bırak ile şık faturaya dönüştürür; KDV ve toplamları hesaplar, tek tıkla PDF/Yazdır çıktısı verir. |
 | **05** | `05-edefter-kontrolcu.ps1` / `.py` | **`05-edefter-balans-kontrolcu.bat`** | e-Defter beratını GİB'e yüklemeden önce borç-alacak kuruş dengesini (balans) ve UTF-8 şema uyumunu denetler; berat reddini önler. |
+| **06** | `06-e-irsaliye-karekod-dogrulayici.ps1` | **`06-e-irsaliye-karekod-dogrulayici.bat`** | GİB 509 VUK e-İrsaliye karekodunu ayrıştırır; VKN, Belge No, sevk zamanı, plaka ve imza bütünlüğünü doğrular; yol denetimi cezalarını önler. |
 
 ---
 
@@ -41,6 +42,13 @@ Tüm araçlar **%100 çevrimdışı (offline)** çalışır, hiçbir kişisel ve
   1. e-Defter XML dosyanızı doğrudan bu `.bat` dosyasının üzerine sürükleyip bırakabilirsiniz.
   2. Veya dosyaya çift tıklayıp dosya yolunu pencereye sürükleyebilirsiniz.
   3. Test amaçlı denemek için ekranda `ornek` yazıp Enter'a basabilirsiniz.
+
+### 6. `06-e-irsaliye-karekod-dogrulayici.bat`
+* **Kullanım:**
+  1. Dosyaya çift tıklayın.
+  2. Karekod okuyucu ile okutulmuş metni veya panodaki karekod verisini yapıştırıp Enter'a basın (Test için `ornek` yazabilirsiniz).
+  3. Sistem Satıcı VKN, Alıcı VKN, 16 haneli e-İrsaliye no, fiili sevk saati ve plaka alanlarını yasal mevzuata göre denetler.
+
 
 ---
 

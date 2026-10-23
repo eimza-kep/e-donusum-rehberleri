@@ -1,7 +1,10 @@
 # Vergi Usul Kanunu 596 Sıra No.lu Genel Tebliği Kapsamında Yeni Nesil E-Tebligat ve Zaman Damgası Rehberi
 
+> **Kategori:** E-Tebligat, VUK & Zaman Damgası  
+> **Hedef Kitle:** Şirket Yöneticileri, Mali Müşavirler, Hukukçular, Muhasebe Uzmanları  
 > **Son Güncelleme:** Ekim 2026  
 > **Kapsam:** Hazine ve Maliye Bakanlığı Gelir İdaresi Başkanlığı Elektronik Tebligat Sistemi, 213 Sayılı VUK m. 107/A, VUK 596 Sıra No.lu Tebliğ, 5070 Sayılı Elektronik İmza Kanunu.
+
 
 ---
 

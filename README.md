@@ -1,14 +1,15 @@
 # Türkiye E-Dönüşüm Rehberleri 📚🇹🇷
 
 [![CI - Rehber Doğrulama](https://github.com/eimza-kep/e-donusum-rehberleri/actions/workflows/ci.yml/badge.svg)](https://github.com/eimza-kep/e-donusum-rehberleri/actions/workflows/ci.yml)
-[![Rehber Sayısı](https://img.shields.io/badge/Rehber_Say%C4%B1s%C4%B1-27_Rehber-success.svg)](#-tüm-rehberler-fihristi)
+[![Rehber Sayısı](https://img.shields.io/badge/Rehber_Say%C4%B1s%C4%B1-28_Rehber-success.svg)](#-tüm-rehberler-fihristi)
+[![Yardımcı Araçlar](https://img.shields.io/badge/Yard%C4%B1mc%C4%B1_Ara%C3%A7lar-6_T%C4%B1kla--%C3%87al%C4%B1%C5%9Ft%C4%B1r-blue.svg)](#-tıkla-çalıştır-yardımcı-araçlar-windows--çevrimdışı)
 [![Organizasyon](https://img.shields.io/badge/GitHub-eimza--kep-blue.svg)](https://github.com/eimza-kep)
 [![Lisans](https://img.shields.io/badge/Lisans-MIT-orange.svg)](LICENSE)
 [![Son Güncelleme](https://img.shields.io/badge/Mevzuat-2026_Uyumlu-green.svg)](#)
 
 Türkiye'nin en kapsamlı, bağımsız, reklamsız ve açık kaynaklı **E-Dönüşüm Rehber Kütüphanesi**. 
 
-Bu depoda; **E-İmza**, **Mali Mühür**, **KEP (Kayıtlı Elektronik Posta)**, **e-Fatura**, **e-Defter**, **e-İrsaliye**, **e-SMM**, **UYAP**, **MERSİS**, **E-Tebligat** ve teknik hata çözümlerine dair adım adım 27 ayrıntılı kılavuz yer almaktadır.
+Bu depoda; **E-İmza**, **Mali Mühür**, **KEP (Kayıtlı Elektronik Posta)**, **e-Fatura**, **e-Defter**, **e-İrsaliye**, **e-SMM**, **UYAP**, **MERSİS**, **E-Tebligat** ve teknik hata çözümlerine dair adım adım **28 ayrıntılı kılavuz** ve Windows üzerinde tek tıkla çalışan **6 adet pratik çevrimdışı teşhis aracı** yer almaktadır.
 
 ---
 
@@ -41,8 +42,9 @@ Bu depoda; **E-İmza**, **Mali Mühür**, **KEP (Kayıtlı Elektronik Posta)**, 
 | **23** | [UYAP Portalında E-İmza Kullanımı ve Hata Çözümleri](rehberler/23-uyap-avukat-vatandas-portal-e-imza.md) | UYAP | Hukukçular, Vatandaşlar |
 | **24** | [MERSİS ile Şirket Kuruluşu ve E-İmza Onayı](rehberler/24-mersis-sirket-ana-sozlesme-e-imza.md) | MERSİS | Girişimciler, Avukatlar |
 | **25** | [UYAP UDF Dosyalarını Yapay Zeka İçin Markdown'a Dönüştürme](rehberler/25-uyap-udf-yapay-zeka-markdown-donusturme.md) | LegalTech | Avukatlar, Geliştiriciler |
-| **26** | [2026 e-İrsaliye Geçiş Zorunluluğu, Ciro Limitleri ve Karekod Standartları](rehberler/26-e-irsaliye-2026-gecis-ve-karekod-standartlari.md) | e-İrsaliye | Mali Müşavirler, Lojistik, ERP |
+| **26** | [2026/2027 e-İrsaliye Geçiş Zorunluluğu, Ciro Limitleri ve Karekod Standartları](rehberler/26-e-irsaliye-2026-gecis-ve-karekod-standartlari.md) | e-İrsaliye | Mali Müşavirler, Lojistik, ERP |
 | **27** | [VUK 596 E-Tebligat, Zaman Damgası ve Mazbata Rehberi](rehberler/27-vuk-596-e-tebligat-ve-zamandamgasi-rehberi.md) | E-Tebligat | Şirket Yetkilileri, Mali Müşavirler, Hukukçular |
+| **28** | [e-Defter İkincil Kopya ve Saklama Programı Rehberi](rehberler/28-e-defter-ikincil-kopya-ve-saklama-programi-rehberi.md) | e-Defter | Mali Müşavirler, Muhasebe Müdürleri, BT |
 
 ---
 
@@ -56,6 +58,13 @@ Sık karşılaşılan kriz anlarında doğrudan ilgili çözüme ulaşın:
 * 🚨 **"Mali mührün süresi bitmiş, yarın e-Defterin son günü!"**  
   👉 [08 - Mali Mührün Süresi Bittiğinde Acil Eylem Planı](rehberler/08-mali-muhur-suresi-dolunca-yapilacaklar.md)  
   👉 [20 - Mali Mühürsüz Özel Entegratör İmzası](rehberler/20-mali-muhursuz-e-defter-ozel-entegrator.md)
+
+* 💾 **"e-Defter İkincil Kopya Programında SocketTimeoutException veya 504 Timeout hatası alıyorum!"**  
+  👉 [28 - e-Defter İkincil Kopya ve Saklama Programı Kurulum ve Hata Çözüm Rehberi](rehberler/28-e-defter-ikincil-kopya-ve-saklama-programi-rehberi.md)
+
+* 🚚 **"e-İrsaliye karekodu yol denetiminde tablete okutulunca ceza riski var mı?"**  
+  👉 [26 - 2026/2027 e-İrsaliye Geçiş Zorunluluğu ve Karekod Standartları](rehberler/26-e-irsaliye-2026-gecis-ve-karekod-standartlari.md)  
+  👉 [06 - e-İrsaliye Karekod Doğrulayıcı Aracı](araclar/06-e-irsaliye-karekod-dogrulayici.bat)
 
 * 🍎 **"Macbook (M1/M2/M3) aldım, e-imza kart okuyucuyu görmüyor!"**  
   👉 [04 - Mac macOS E-İmza Kurulumu](rehberler/04-mac-macos-e-imza-kurulumu.md)
@@ -76,7 +85,7 @@ Sık karşılaşılan kriz anlarında doğrudan ilgili çözüme ulaşın:
 
 ## 🛠️ Tıkla-Çalıştır Yardımcı Araçlar (Windows / Çevrimdışı)
 
-Depomuzdaki [`araclar/`](araclar/) klasöründe, hiçbir terminal veya komut satırı bilgisine gerek kalmadan Windows ortamında doğrudan **çift tıklayarak** çalıştırabileceğiniz 5 adet pratik E-Dönüşüm aracı bulunmaktadır:
+Depomuzdaki [`araclar/`](araclar/) klasöründe, hiçbir terminal veya komut satırı bilgisine gerek kalmadan Windows ortamında doğrudan **çift tıklayarak** çalıştırabileceğiniz **6 adet pratik E-Dönüşüm aracı** bulunmaktadır:
 
 | Araç Başlatıcı | Tek Tıkla Ne Yapar? | Ayrıntı & Rehber |
 | :--- | :--- | :--- |
@@ -85,28 +94,27 @@ Depomuzdaki [`araclar/`](araclar/) klasöründe, hiçbir terminal veya komut sat
 | [**`03-uyap-java-onbellek-temizle.bat`**](araclar/03-uyap-java-onbellek-temizle.bat) | UYAP Portal ve Editör kilitlenmelerini, Java önbelleğini ve eski sertifika artıklarını tek tıkla sıfırlar. | [araclar/README.md](araclar/README.md) |
 | [**`04-e-fatura-goruntuleyici-baslat.bat`**](araclar/04-e-fatura-goruntuleyici-baslat.bat) | Ham UBL-TR `.xml` faturalarını internete yüklemeden (%100 çevrimdışı ve güvenli) şık resmi faturaya dönüştürür, PDF/yazdır çıktısı verir. | [Arayüz (.html)](araclar/04-e-fatura-xml-goruntuleyici.html) |
 | [**`05-edefter-balans-kontrolcu.bat`**](araclar/05-edefter-balans-kontrolcu.bat) | e-Defter dosyasını sürükle-bırak ile denetler, kuruş borç-alacak dengesini ve UTF-8 şema uyumunu onaylar. | [araclar/README.md](araclar/README.md) |
+| [**`06-e-irsaliye-karekod-dogrulayici.bat`**](araclar/06-e-irsaliye-karekod-dogrulayici.bat) | e-İrsaliye karekodunu ayrıştırır; Satıcı/Alıcı VKN, 16 haneli belge no, sevk zamanı, araç plaka ve imza bütünlüğünü GİB mevzuatına göre denetler. | [araclar/README.md](araclar/README.md) |
 
 > 🔒 **Gizlilik Garantisi:** Tüm araçlar %100 yerel ve çevrimdışı çalışır. Bilgisayarınızdan hiçbir veri dışarı aktarılmaz.
 
 ---
 
-## 🔍 Rehber İçi Arama Motoru (CLI)
+## 🔍 Rehber İçi Arama Motoru ve Doğrulama (CLI)
 
 Rehberler arasında anahtar kelime, kategori ve sorun araması yapmak için dahili Python aracını kullanabilirsiniz:
 
 ```bash
-# Anahtar kelime arama
-python scripts/search_guides.py "bloke"
+# 1. Anahtar kelime arama (Örn: "bloke", "tebligat", "karekod", "ikincil kopya"):
+python scripts/search_guides.py "ikincil kopya"
 
-# Tüm rehberleri kategorileriyle listeleme
+# 2. Tüm rehberleri kategorileriyle listeleme:
 python scripts/search_guides.py --list
 
-# Programatik kullanım için JSON çıktısı alma
+# 3. Programatik kullanım için JSON çıktısı alma:
 python scripts/search_guides.py "fatura" --json
-```
 
-Doğrulama aracını çalıştırmak için:
-```bash
+# 4. Kütüphane bütünlük ve kalite doğrulamasını çalıştırma:
 python scripts/validate_guides.py
 ```
 
@@ -117,19 +125,20 @@ python scripts/validate_guides.py
 Bu repo, [@eimza-kep](https://github.com/eimza-kep) organizasyonunun açık kaynak araç paketinin bir parçasıdır:
 
 1. 🛠️ [eimza-pin-bloke-asistani](https://github.com/eimza-kep/eimza-pin-bloke-asistani) - Bloke olan e-imza PIN kodlarını tek tıkla çözen PowerShell/Bash aracı.
-2. 📖 [turkiye-e-donusum-sozlugu](https://github.com/eimza-kep/turkiye-e-donusum-sozlugu) - 80+ kavramlık E-Dönüşüm terimleri sözlüğü ve arama motoru.
-3. 🏛️ [turkiye-e-donusum-mevzuat-arsivi](https://github.com/eimza-kep/turkiye-e-donusum-mevzuat-arsivi) - Resmî Gazete kanun ve tebliğ arşivi.
-4. 🔐 [kamu-sm-mali-muhur-asistani](https://github.com/eimza-kep/kamu-sm-mali-muhur-asistani) - TÜBİTAK Kamu SM sürücü ve kilit yönetim CLI aracı.
-5. 📊 [turkiye-edefter-berat-dogrulayici](https://github.com/eimza-kep/turkiye-edefter-berat-dogrulayici) - e-Defter XML şema ve balans doğrulama kütüphanesi.
-6. ⭐ [awesome-turkiye-e-donusum](https://github.com/eimza-kep/awesome-turkiye-e-donusum) - Türkiye e-dönüşüm ekosistemi küratörlü kaynak listesi.
-7. 🧪 [eimza-cross-platform-test-suite](https://github.com/eimza-kep/eimza-cross-platform-test-suite) - Windows, macOS ve Linux akıllı kart donanım test paketi.
-8. 🧾 [gib-portal-fatura-araclari](https://github.com/eimza-kep/gib-portal-fatura-araclari) - GİB Portal UBL-TR XML oluşturucu ve KDV hesaplayıcı.
-9. 📬 [turkiye-kep-entegrasyon-rehberi](https://github.com/eimza-kep/turkiye-kep-entegrasyon-rehberi) - KEP sistemleri için Python & REST API entegrasyon kılavuzu.
-10. 🔏 [eimza-validasyon-servisi](https://github.com/eimza-kep/eimza-validasyon-servisi) - CAdES/PAdES/XAdES dijital imza doğrulama mikrosistemi.
-11. 📊 [muhasebe-excel-sablonlari](https://github.com/eimza-kep/muhasebe-excel-sablonlari) - Muhasebeciler için 7 adet formüllü Excel hesaplama aracı (e-SMM, Tevkifat, Kıdem, Bordro vb.).
-12. ⚖️ [avukat-hukuk-excel-hesaplamalari](https://github.com/eimza-kep/avukat-hukuk-excel-hesaplamalari) - Hukuk büroları için 7 adet Excel hesaplama aracı (AAÜT, İcra kapak, Yasal faiz, Dava harcı vb.).
-13. 🏢 [kobi-finans-yonetim-excel-sablonlari](https://github.com/eimza-kep/kobi-finans-yonetim-excel-sablonlari) - KOBİ'ler için 6 adet Excel finans yönetim şablonu (Nakit akış, Başabaş, Stok takip vb.).
-14. 🤖 [turkiye-yapay-zeka-araclari](https://github.com/eimza-kep/turkiye-yapay-zeka-araclari) - Mali müşavirler, avukatlar ve KOBİ'ler için 20 yapay zeka aracı ve BYOK web portali (OpenAI & Gemini).
+2. 🚀 [100-e-donusum-skili](https://github.com/eimza-kep/100-e-donusum-skili) - 102 adet uzman e-Dönüşüm yapay zeka becerisi ve web playground.
+3. 📖 [turkiye-e-donusum-sozlugu](https://github.com/eimza-kep/turkiye-e-donusum-sozlugu) - 80+ kavramlık E-Dönüşüm terimleri sözlüğü ve arama motoru.
+4. 🏛️ [turkiye-e-donusum-mevzuat-arsivi](https://github.com/eimza-kep/turkiye-e-donusum-mevzuat-arsivi) - Resmî Gazete kanun ve tebliğ arşivi.
+5. 🔐 [kamu-sm-mali-muhur-asistani](https://github.com/eimza-kep/kamu-sm-mali-muhur-asistani) - TÜBİTAK Kamu SM sürücü ve kilit yönetim CLI aracı.
+6. 📊 [turkiye-edefter-berat-dogrulayici](https://github.com/eimza-kep/turkiye-edefter-berat-dogrulayici) - e-Defter XML şema ve balans doğrulama kütüphanesi.
+7. ⭐ [awesome-turkiye-e-donusum](https://github.com/eimza-kep/awesome-turkiye-e-donusum) - Türkiye e-dönüşüm ekosistemi küratörlü kaynak listesi.
+8. 🧪 [eimza-cross-platform-test-suite](https://github.com/eimza-kep/eimza-cross-platform-test-suite) - Windows, macOS ve Linux akıllı kart donanım test paketi.
+9. 🧾 [gib-portal-fatura-araclari](https://github.com/eimza-kep/gib-portal-fatura-araclari) - GİB Portal UBL-TR XML oluşturucu ve KDV hesaplayıcı.
+10. 📬 [turkiye-kep-entegrasyon-rehberi](https://github.com/eimza-kep/turkiye-kep-entegrasyon-rehberi) - KEP sistemleri için Python & REST API entegrasyon kılavuzu.
+11. 🔏 [eimza-validasyon-servisi](https://github.com/eimza-kep/eimza-validasyon-servisi) - CAdES/PAdES/XAdES dijital imza doğrulama mikrosistemi.
+12. 📊 [muhasebe-excel-sablonlari](https://github.com/eimza-kep/muhasebe-excel-sablonlari) - Muhasebeciler için formüllü Excel hesaplama araçları.
+13. ⚖️ [avukat-hukuk-excel-hesaplamalari](https://github.com/eimza-kep/avukat-hukuk-excel-hesaplamalari) - Hukuk büroları için AAÜT ve icra hesaplama şablonları.
+14. 🏢 [kobi-finans-yonetim-excel-sablonlari](https://github.com/eimza-kep/kobi-finans-yonetim-excel-sablonlari) - KOBİ'ler için nakit akış ve stok takip tabloları.
+15. 🤖 [turkiye-yapay-zeka-araclari](https://github.com/eimza-kep/turkiye-yapay-zeka-araclari) - Mali müşavirler, avukatlar ve KOBİ'ler için 20 yapay zeka aracı ve BYOK web portali.
 
 ---
 

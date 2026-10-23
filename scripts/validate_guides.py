@@ -78,7 +78,9 @@ def validate():
         "04-e-fatura-xml-goruntuleyici.html",
         "05-edefter-balans-kontrolcu.bat",
         "05-edefter-kontrolcu.py",
-        "05-edefter-kontrolcu.ps1"
+        "05-edefter-kontrolcu.ps1",
+        "06-e-irsaliye-karekod-dogrulayici.bat",
+        "06-e-irsaliye-karekod-dogrulayici.ps1"
     ]
 
     print("\n🛠️ Tıkla-Çalıştır Yardımcı Araçlar Kontrol Ediliyor...")
