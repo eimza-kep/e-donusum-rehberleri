@@ -1,7 +1,7 @@
 # Türkiye E-Dönüşüm Rehberleri 📚🇹🇷
 
 [![CI - Rehber Doğrulama](https://github.com/eimza-kep/e-donusum-rehberleri/actions/workflows/ci.yml/badge.svg)](https://github.com/eimza-kep/e-donusum-rehberleri/actions/workflows/ci.yml)
-[![Rehber Sayısı](https://img.shields.io/badge/Rehber_Say%C4%B1s%C4%B1-28_Rehber-success.svg)](#-tüm-rehberler-fihristi)
+[![Rehber Sayısı](https://img.shields.io/badge/Rehber_Say%C4%B1s%C4%B1-30_Rehber-success.svg)](#-tüm-rehberler-fihristi)
 [![Yardımcı Araçlar](https://img.shields.io/badge/Yard%C4%B1mc%C4%B1_Ara%C3%A7lar-6_T%C4%B1kla--%C3%87al%C4%B1%C5%9Ft%C4%B1r-blue.svg)](#-tıkla-çalıştır-yardımcı-araçlar-windows--çevrimdışı)
 [![Organizasyon](https://img.shields.io/badge/GitHub-eimza--kep-blue.svg)](https://github.com/eimza-kep)
 [![Lisans](https://img.shields.io/badge/Lisans-MIT-orange.svg)](LICENSE)
@@ -9,7 +9,7 @@
 
 Türkiye'nin en kapsamlı, bağımsız, reklamsız ve açık kaynaklı **E-Dönüşüm Rehber Kütüphanesi**. 
 
-Bu depoda; **E-İmza**, **Mali Mühür**, **KEP (Kayıtlı Elektronik Posta)**, **e-Fatura**, **e-Defter**, **e-İrsaliye**, **e-SMM**, **UYAP**, **MERSİS**, **E-Tebligat** ve teknik hata çözümlerine dair adım adım **28 ayrıntılı kılavuz** ve Windows üzerinde tek tıkla çalışan **6 adet pratik çevrimdışı teşhis aracı** yer almaktadır.
+Bu depoda; **E-İmza**, **Mali Mühür**, **KEP (Kayıtlı Elektronik Posta)**, **e-Fatura**, **e-Defter**, **e-İrsaliye**, **e-SMM**, **UYAP**, **MERSİS**, **E-Tebligat** ve teknik hata çözümlerine dair adım adım **30 ayrıntılı kılavuz** ve Windows üzerinde tek tıkla çalışan **6 adet pratik çevrimdışı teşhis aracı** yer almaktadır.
 
 ---
 
